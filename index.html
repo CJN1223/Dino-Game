@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dinosaur Game</title>
+</head>
+<body>
+    <div class="info">
+        <h1>Dinosaur Game</h1>
+        <p>High Score: <span id="highScore">0</span></p> <!--span allows score to be changed-->
+        <p>Score: <span id="score">0</span></p>
+    </div>
+
+    <div class="cloud cloud1" id="resetHighScoreButton">Reset High Score</div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+
+    <div class="ground"></div>
+    <p id="startMessage">Press Enter to Start</p>
+    <canvas id="myCanvas"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
